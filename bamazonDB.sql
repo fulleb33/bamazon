@@ -1,6 +1,7 @@
 drop database if exists bamazonDB;
 create database bamazonDB;
 use bamazonDB;
+drop table if exists products;
 create table products (
 	id int not null auto_increment,
 	item varchar(50) not null,
